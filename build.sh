@@ -1,5 +1,6 @@
-#!/bin/bash -ex
+#!/bin/bash -eux
 # -e: Exit immediately if a command exits with a non-zero status.
+# -u: Treat unset variables as an error when substituting.
 # -x: Display expanded script commands
 
 # use as build.sh <dest dir> (i.e. the files will be installed to <dest dir>/<sys-root>/usr)
